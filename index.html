@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Junior Trujillo Pardo | Portafolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description"
+        content="Portafolio profesional de Alex Junior Trujillo Pardo, desarrollador web y aprendiz SENA.">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <a href="#" class="logo">Alex.<span>Dev</span></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre Mí</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="home-content reveal">
+            <h3>Hola, soy</h3>
+            <h1>Alex Junior Trujillo Pardo</h1>
+            <h3><span class="multiple-text">Desarrollador Web</span></h3>
+            <p>Apasioanado por la tecnología y estudiante del SENA en Análisis y Desarrollo de Software (ADSO). Creo
+                experiencias digitales funcionales y atractivas.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/alex2trujillo" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="mailto:alexjuniortrujillopardo@gmail.com"><i class='bx bx-envelope'></i></a>
+            </div>
+
+            <a href="#projects" class="btn">Ver Proyectos</a>
+        </div>
+
+        <div class="home-img reveal glow-effect">
+            <!-- Imagen de Perfil con zoom -->
+            <div class="img-wrapper">
+                <img src="perfil.jpg" alt="Foto de Alex Junior Trujillo Pardo" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content reveal">
+            <h2 class="heading">Sobre <span>Mí</span></h2>
+            <p>
+                Soy estudiante del SENA en Análisis y Desarrollo de Software (ADSO), fuertemente enfocado en el
+                desarrollo de aplicaciones web.
+                Me caracterizo por mi responsabilidad, capacidad de aprendizaje rápido y excelente trabajo en equipo.
+                Actualmente, busco oportunidades para crecer profesionalmente y aplicar mis conocimientos
+                arquitecturando y diseñando proyectos reales.
+            </p>
+            <div class="education-timeline">
+                <div class="timeline-box">
+                    <h4><i class='bx bxs-graduation'></i> Tecnólogo en ADSO</h4>
+                    <p>SENA - En formación</p>
+                </div>
+                <div class="timeline-box">
+                    <h4><i class='bx bxs-book-reader'></i> Bachiller Técnico Industrial</h4>
+                    <p>Especialidad: Electricidad y Electrónica</p>
+                </div>
+                <div class="timeline-box">
+                    <h4><i class='bx bx-map'></i> Ubicación</h4>
+                    <p>Santa Marta, Colombia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading reveal">Mis <span>Habilidades</span></h2>
+        <div class="skills-container reveal">
+
+            <!-- Tech skills -->
+            <div class="skills-box core-skills">
+                <h3>Tecnologías</h3>
+                <div class="skill-tags">
+                    <span class="tag"><i class='bx bxl-html5'></i> HTML5</span>
+                    <span class="tag"><i class='bx bxl-css3'></i> CSS3</span>
+                    <span class="tag"><i class='bx bxl-javascript'></i> JavaScript</span>
+                    <span class="tag"><i class='bx bxl-python'></i> Python</span>
+                    <span class="tag"><i class='bx bxl-git'></i> Git & GitHub</span>
+                    <span class="tag"><i class='bx bx-code-alt'></i> VS Code</span>
+                </div>
+            </div>
+
+            <!-- Soft skills -->
+            <div class="skills-box soft-skills">
+                <h3>Personales</h3>
+                <div class="skill-tags">
+                    <span class="tag">💡 Aprendizaje Rápido</span>
+                    <span class="tag">🤝 Trabajo en Equipo</span>
+                    <span class="tag">✅ Responsabilidad</span>
+                    <span class="tag">🗣️ Comunicación</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading reveal">Mis <span>Proyectos</span></h2>
+        <div class="projects-container reveal">
+
+            <div class="project-box glass-card">
+                <div class="project-img-placeholder">
+                    <i class='bx bx-coffee-togo'></i>
+                </div>
+                <div class="project-info">
+                    <h4>Sistema de Reservas para Cafetería</h4>
+                    <p>Aplicación web desarrollada como proyecto académico para gestionar reservas de clientes de manera
+                        eficiente.</p>
+                    <ul class="project-features">
+                        <li><i class='bx bx-check'></i> Registro y validación de usuarios</li>
+                        <li><i class='bx bx-check'></i> Organización de información en tiempo real</li>
+                        <li><i class='bx bx-check'></i> Enfoque en experiencia de usuario (UX)</li>
+                    </ul>
+                    <a href="https://reservas-cafeteria.onrender.com" id="btn-abrir-reserva" class="btn"
+                        target="_blank"><i class='bx bx-link-external'></i> Abrir Proyecto</a>
+                </div>
+            </div>
+
+            <!-- You can easily add more project cards here -->
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading reveal">Mis <span>Datos & Contacto</span></h2>
+        <div class="contact-container reveal">
+            <div class="contact-box">
+                <i class='bx bx-id-card'></i>
+                <h3>Cédula</h3>
+                <p>1082872581</p>
+            </div>
+            <div class="contact-box">
+                <i class='bx bxl-whatsapp'></i>
+                <h3>Teléfono</h3>
+                <p>+57 3105988351</p>
+            </div>
+            <div class="contact-box">
+                <i class='bx bx-envelope'></i>
+                <h3>Correo Electrónico</h3>
+                <p>alexjuniortrujillopardo@gmail.com</p>
+            </div>
+            <div class="contact-box">
+                <i class='bx bx-current-location'></i>
+                <h3>Ubicación</h3>
+                <p>Santa Marta, Colombia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2026 by Alex Junior Trujillo Pardo | Construido con HTML, CSS y JS.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
