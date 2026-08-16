@@ -457,49 +457,6 @@ section {
     background: var(--bg-color);
 }
 
-/* Certificates Section */
-.certificates {
-    background: var(--second-bg-color);
-}
-
-.certificates-container {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.cert-box {
-    background: var(--glass-bg);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--glass-border);
-    border-radius: 1.5rem;
-    overflow: hidden;
-    flex: 1 1 320px;
-    max-width: 520px;
-    transition: .4s ease;
-}
-
-.cert-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    border-color: var(--main-cyan);
-}
-
-.cert-info {
-    padding: 2rem;
-}
-
-.cert-info h4 {
-    font-size: 1.8rem;
-    margin-bottom: .8rem;
-}
-
-.cert-info p {
-    font-size: 1.4rem;
-    color: #cbd5e1;
-    margin-bottom: .6rem;
-}
 
 .contact-container {
     display: flex;
